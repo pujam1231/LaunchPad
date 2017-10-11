@@ -1,0 +1,507 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2334B88E1F8ED4BB009C5B31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B88D1F8ED4BB009C5B31 /* AppDelegate.swift */; };
+		2334B8901F8ED4BB009C5B31 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B88F1F8ED4BB009C5B31 /* ViewController.swift */; };
+		2334B8931F8ED4BB009C5B31 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2334B8911F8ED4BB009C5B31 /* Main.storyboard */; };
+		2334B8951F8ED4BB009C5B31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2334B8941F8ED4BB009C5B31 /* Assets.xcassets */; };
+		2334B8981F8ED4BB009C5B31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2334B8961F8ED4BB009C5B31 /* LaunchScreen.storyboard */; };
+		2334B8A31F8ED4BB009C5B31 /* LaunchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B8A21F8ED4BB009C5B31 /* LaunchPadTests.swift */; };
+		2334B8AE1F8ED4BB009C5B31 /* LaunchPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2334B8AD1F8ED4BB009C5B31 /* LaunchPadUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2334B89F1F8ED4BB009C5B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2334B8821F8ED4BB009C5B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2334B8891F8ED4BB009C5B31;
+			remoteInfo = LaunchPad;
+		};
+		2334B8AA1F8ED4BB009C5B31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2334B8821F8ED4BB009C5B31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2334B8891F8ED4BB009C5B31;
+			remoteInfo = LaunchPad;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2334B88A1F8ED4BB009C5B31 /* LaunchPad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaunchPad.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334B88D1F8ED4BB009C5B31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2334B88F1F8ED4BB009C5B31 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2334B8921F8ED4BB009C5B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2334B8941F8ED4BB009C5B31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2334B8971F8ED4BB009C5B31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2334B8991F8ED4BB009C5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2334B89E1F8ED4BB009C5B31 /* LaunchPadTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchPadTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334B8A21F8ED4BB009C5B31 /* LaunchPadTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPadTests.swift; sourceTree = "<group>"; };
+		2334B8A41F8ED4BB009C5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2334B8A91F8ED4BB009C5B31 /* LaunchPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2334B8AD1F8ED4BB009C5B31 /* LaunchPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPadUITests.swift; sourceTree = "<group>"; };
+		2334B8AF1F8ED4BB009C5B31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2334B8871F8ED4BB009C5B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B89B1F8ED4BB009C5B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B8A61F8ED4BB009C5B31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2334B8811F8ED4BB009C5B31 = {
+			isa = PBXGroup;
+			children = (
+				2334B88C1F8ED4BB009C5B31 /* LaunchPad */,
+				2334B8A11F8ED4BB009C5B31 /* LaunchPadTests */,
+				2334B8AC1F8ED4BB009C5B31 /* LaunchPadUITests */,
+				2334B88B1F8ED4BB009C5B31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2334B88B1F8ED4BB009C5B31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2334B88A1F8ED4BB009C5B31 /* LaunchPad.app */,
+				2334B89E1F8ED4BB009C5B31 /* LaunchPadTests.xctest */,
+				2334B8A91F8ED4BB009C5B31 /* LaunchPadUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2334B88C1F8ED4BB009C5B31 /* LaunchPad */ = {
+			isa = PBXGroup;
+			children = (
+				2334B88D1F8ED4BB009C5B31 /* AppDelegate.swift */,
+				2334B88F1F8ED4BB009C5B31 /* ViewController.swift */,
+				2334B8911F8ED4BB009C5B31 /* Main.storyboard */,
+				2334B8941F8ED4BB009C5B31 /* Assets.xcassets */,
+				2334B8961F8ED4BB009C5B31 /* LaunchScreen.storyboard */,
+				2334B8991F8ED4BB009C5B31 /* Info.plist */,
+			);
+			path = LaunchPad;
+			sourceTree = "<group>";
+		};
+		2334B8A11F8ED4BB009C5B31 /* LaunchPadTests */ = {
+			isa = PBXGroup;
+			children = (
+				2334B8A21F8ED4BB009C5B31 /* LaunchPadTests.swift */,
+				2334B8A41F8ED4BB009C5B31 /* Info.plist */,
+			);
+			path = LaunchPadTests;
+			sourceTree = "<group>";
+		};
+		2334B8AC1F8ED4BB009C5B31 /* LaunchPadUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2334B8AD1F8ED4BB009C5B31 /* LaunchPadUITests.swift */,
+				2334B8AF1F8ED4BB009C5B31 /* Info.plist */,
+			);
+			path = LaunchPadUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2334B8891F8ED4BB009C5B31 /* LaunchPad */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334B8B21F8ED4BB009C5B31 /* Build configuration list for PBXNativeTarget "LaunchPad" */;
+			buildPhases = (
+				2334B8861F8ED4BB009C5B31 /* Sources */,
+				2334B8871F8ED4BB009C5B31 /* Frameworks */,
+				2334B8881F8ED4BB009C5B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LaunchPad;
+			productName = LaunchPad;
+			productReference = 2334B88A1F8ED4BB009C5B31 /* LaunchPad.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2334B89D1F8ED4BB009C5B31 /* LaunchPadTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334B8B51F8ED4BB009C5B31 /* Build configuration list for PBXNativeTarget "LaunchPadTests" */;
+			buildPhases = (
+				2334B89A1F8ED4BB009C5B31 /* Sources */,
+				2334B89B1F8ED4BB009C5B31 /* Frameworks */,
+				2334B89C1F8ED4BB009C5B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2334B8A01F8ED4BB009C5B31 /* PBXTargetDependency */,
+			);
+			name = LaunchPadTests;
+			productName = LaunchPadTests;
+			productReference = 2334B89E1F8ED4BB009C5B31 /* LaunchPadTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2334B8A81F8ED4BB009C5B31 /* LaunchPadUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2334B8B81F8ED4BB009C5B31 /* Build configuration list for PBXNativeTarget "LaunchPadUITests" */;
+			buildPhases = (
+				2334B8A51F8ED4BB009C5B31 /* Sources */,
+				2334B8A61F8ED4BB009C5B31 /* Frameworks */,
+				2334B8A71F8ED4BB009C5B31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2334B8AB1F8ED4BB009C5B31 /* PBXTargetDependency */,
+			);
+			name = LaunchPadUITests;
+			productName = LaunchPadUITests;
+			productReference = 2334B8A91F8ED4BB009C5B31 /* LaunchPadUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2334B8821F8ED4BB009C5B31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Puja Maheshwari";
+				TargetAttributes = {
+					2334B8891F8ED4BB009C5B31 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					2334B89D1F8ED4BB009C5B31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2334B8891F8ED4BB009C5B31;
+					};
+					2334B8A81F8ED4BB009C5B31 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 2334B8891F8ED4BB009C5B31;
+					};
+				};
+			};
+			buildConfigurationList = 2334B8851F8ED4BB009C5B31 /* Build configuration list for PBXProject "LaunchPad" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2334B8811F8ED4BB009C5B31;
+			productRefGroup = 2334B88B1F8ED4BB009C5B31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2334B8891F8ED4BB009C5B31 /* LaunchPad */,
+				2334B89D1F8ED4BB009C5B31 /* LaunchPadTests */,
+				2334B8A81F8ED4BB009C5B31 /* LaunchPadUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2334B8881F8ED4BB009C5B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B8981F8ED4BB009C5B31 /* LaunchScreen.storyboard in Resources */,
+				2334B8951F8ED4BB009C5B31 /* Assets.xcassets in Resources */,
+				2334B8931F8ED4BB009C5B31 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B89C1F8ED4BB009C5B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B8A71F8ED4BB009C5B31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2334B8861F8ED4BB009C5B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B8901F8ED4BB009C5B31 /* ViewController.swift in Sources */,
+				2334B88E1F8ED4BB009C5B31 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B89A1F8ED4BB009C5B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B8A31F8ED4BB009C5B31 /* LaunchPadTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2334B8A51F8ED4BB009C5B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2334B8AE1F8ED4BB009C5B31 /* LaunchPadUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2334B8A01F8ED4BB009C5B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2334B8891F8ED4BB009C5B31 /* LaunchPad */;
+			targetProxy = 2334B89F1F8ED4BB009C5B31 /* PBXContainerItemProxy */;
+		};
+		2334B8AB1F8ED4BB009C5B31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2334B8891F8ED4BB009C5B31 /* LaunchPad */;
+			targetProxy = 2334B8AA1F8ED4BB009C5B31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2334B8911F8ED4BB009C5B31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2334B8921F8ED4BB009C5B31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2334B8961F8ED4BB009C5B31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2334B8971F8ED4BB009C5B31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2334B8B01F8ED4BB009C5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2334B8B11F8ED4BB009C5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2334B8B31F8ED4BB009C5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaunchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = puja.LaunchPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2334B8B41F8ED4BB009C5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LaunchPad/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = puja.LaunchPad;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		2334B8B61F8ED4BB009C5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaunchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = puja.LaunchPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchPad.app/LaunchPad";
+			};
+			name = Debug;
+		};
+		2334B8B71F8ED4BB009C5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = LaunchPadTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = puja.LaunchPadTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/LaunchPad.app/LaunchPad";
+			};
+			name = Release;
+		};
+		2334B8B91F8ED4BB009C5B31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaunchPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = puja.LaunchPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaunchPad;
+			};
+			name = Debug;
+		};
+		2334B8BA1F8ED4BB009C5B31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = LaunchPadUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = puja.LaunchPadUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = LaunchPad;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2334B8851F8ED4BB009C5B31 /* Build configuration list for PBXProject "LaunchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B8B01F8ED4BB009C5B31 /* Debug */,
+				2334B8B11F8ED4BB009C5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2334B8B21F8ED4BB009C5B31 /* Build configuration list for PBXNativeTarget "LaunchPad" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B8B31F8ED4BB009C5B31 /* Debug */,
+				2334B8B41F8ED4BB009C5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2334B8B51F8ED4BB009C5B31 /* Build configuration list for PBXNativeTarget "LaunchPadTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B8B61F8ED4BB009C5B31 /* Debug */,
+				2334B8B71F8ED4BB009C5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		2334B8B81F8ED4BB009C5B31 /* Build configuration list for PBXNativeTarget "LaunchPadUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2334B8B91F8ED4BB009C5B31 /* Debug */,
+				2334B8BA1F8ED4BB009C5B31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2334B8821F8ED4BB009C5B31 /* Project object */;
+}
