@@ -1,0 +1,2 @@
+What is system.out.println used for","exiting out","printing a string","nothing","answer 4","printing a string
+To print "Hello World!" you write:""","Hello World!","return ("Hello World!")"","System.out.println("Hello World!")","print","System.out.println("Hello World!")
