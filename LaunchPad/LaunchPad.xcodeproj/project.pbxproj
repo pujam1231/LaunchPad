@@ -14,6 +14,15 @@
 		230353B41FA2A6A40049996A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 230353B21FA2A6A40049996A /* LaunchScreen.storyboard */; };
 		230353BF1FA2A6A40049996A /* LaunchPadTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230353BE1FA2A6A40049996A /* LaunchPadTests.swift */; };
 		230353CA1FA2A6A40049996A /* LaunchPadUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 230353C91FA2A6A40049996A /* LaunchPadUITests.swift */; };
+		2305FF511FBE50080045E87F /* ContentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2305FF501FBE50080045E87F /* ContentTableViewController.swift */; };
+		232A0F021FD4889200CC57EA /* PracticeOneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232A0F011FD4889200CC57EA /* PracticeOneViewController.swift */; };
+		232A0F061FD4A3C700CC57EA /* PracticeTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 232A0F051FD4A3C700CC57EA /* PracticeTwoViewController.swift */; };
+		232A0F081FD4BF6500CC57EA /* home1.png in Resources */ = {isa = PBXBuildFile; fileRef = 232A0F071FD4BF6500CC57EA /* home1.png */; };
+		23383C141FD1BE4000DF6259 /* PrintingList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 23383C131FD1BE4000DF6259 /* PrintingList.txt */; };
+		23383C161FD1D6AD00DF6259 /* VariablesList.txt in Resources */ = {isa = PBXBuildFile; fileRef = 23383C151FD1D6AD00DF6259 /* VariablesList.txt */; };
+		23383C181FD1DB9C00DF6259 /* TutorialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23383C171FD1DB9C00DF6259 /* TutorialViewController.swift */; };
+		2392BC8C1FD542A200399C36 /* PrintingAnswers2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 2392BC8B1FD542A200399C36 /* PrintingAnswers2.txt */; };
+		23EEB2CE1FD51F1C002C1801 /* PrintingAnswers1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 23EEB2CD1FD51F1C002C1801 /* PrintingAnswers1.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,15 @@
 		230353C51FA2A6A40049996A /* LaunchPadUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LaunchPadUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		230353C91FA2A6A40049996A /* LaunchPadUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchPadUITests.swift; sourceTree = "<group>"; };
 		230353CB1FA2A6A40049996A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2305FF501FBE50080045E87F /* ContentTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentTableViewController.swift; sourceTree = "<group>"; };
+		232A0F011FD4889200CC57EA /* PracticeOneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeOneViewController.swift; sourceTree = "<group>"; };
+		232A0F051FD4A3C700CC57EA /* PracticeTwoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeTwoViewController.swift; sourceTree = "<group>"; };
+		232A0F071FD4BF6500CC57EA /* home1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home1.png; path = ../../../../Downloads/home1.png; sourceTree = "<group>"; };
+		23383C131FD1BE4000DF6259 /* PrintingList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PrintingList.txt; path = ../../../../Documents/PrintingList.txt; sourceTree = "<group>"; };
+		23383C151FD1D6AD00DF6259 /* VariablesList.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = VariablesList.txt; path = ../../../../Documents/VariablesList.txt; sourceTree = "<group>"; };
+		23383C171FD1DB9C00DF6259 /* TutorialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TutorialViewController.swift; sourceTree = "<group>"; };
+		2392BC8B1FD542A200399C36 /* PrintingAnswers2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PrintingAnswers2.txt; path = ../../../../Documents/PrintingAnswers2.txt; sourceTree = "<group>"; };
+		23EEB2CD1FD51F1C002C1801 /* PrintingAnswers1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = PrintingAnswers1.txt; path = ../../../../Documents/PrintingAnswers1.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,11 +116,20 @@
 			isa = PBXGroup;
 			children = (
 				230353A91FA2A6A40049996A /* AppDelegate.swift */,
-				230353AB1FA2A6A40049996A /* ViewController.swift */,
 				230353AD1FA2A6A40049996A /* Main.storyboard */,
 				230353B01FA2A6A40049996A /* Assets.xcassets */,
 				230353B21FA2A6A40049996A /* LaunchScreen.storyboard */,
 				230353B51FA2A6A40049996A /* Info.plist */,
+				230353AB1FA2A6A40049996A /* ViewController.swift */,
+				2305FF501FBE50080045E87F /* ContentTableViewController.swift */,
+				23383C171FD1DB9C00DF6259 /* TutorialViewController.swift */,
+				232A0F011FD4889200CC57EA /* PracticeOneViewController.swift */,
+				232A0F051FD4A3C700CC57EA /* PracticeTwoViewController.swift */,
+				232A0F071FD4BF6500CC57EA /* home1.png */,
+				23383C131FD1BE4000DF6259 /* PrintingList.txt */,
+				23383C151FD1D6AD00DF6259 /* VariablesList.txt */,
+				23EEB2CD1FD51F1C002C1801 /* PrintingAnswers1.txt */,
+				2392BC8B1FD542A200399C36 /* PrintingAnswers2.txt */,
 			);
 			path = LaunchPad;
 			sourceTree = "<group>";
@@ -233,7 +260,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				230353B41FA2A6A40049996A /* LaunchScreen.storyboard in Resources */,
+				23EEB2CE1FD51F1C002C1801 /* PrintingAnswers1.txt in Resources */,
+				2392BC8C1FD542A200399C36 /* PrintingAnswers2.txt in Resources */,
+				23383C141FD1BE4000DF6259 /* PrintingList.txt in Resources */,
+				23383C161FD1D6AD00DF6259 /* VariablesList.txt in Resources */,
 				230353B11FA2A6A40049996A /* Assets.xcassets in Resources */,
+				232A0F081FD4BF6500CC57EA /* home1.png in Resources */,
 				230353AF1FA2A6A40049996A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,6 +292,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				230353AC1FA2A6A40049996A /* ViewController.swift in Sources */,
+				232A0F021FD4889200CC57EA /* PracticeOneViewController.swift in Sources */,
+				2305FF511FBE50080045E87F /* ContentTableViewController.swift in Sources */,
+				23383C181FD1DB9C00DF6259 /* TutorialViewController.swift in Sources */,
+				232A0F061FD4A3C700CC57EA /* PracticeTwoViewController.swift in Sources */,
 				230353AA1FA2A6A40049996A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
